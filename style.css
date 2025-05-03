@@ -1,0 +1,51 @@
+body {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    width: 700px;
+    /*margin-inline: auto;*/
+  }
+  
+  table tr{
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+  }
+  
+  table th{
+    background-color: #da6fb1;
+    color: white;
+  }
+  
+  table th,table td{
+    text-align: center;
+    width: 30px;
+    padding: 15px 0;
+  }
+  
+  table td.icon{
+    background-size: 35px;
+    background-position: left 5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+  }
+    
+.sns-btn {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  }
+
+.sns-btn img {
+  width: 80px;
+  height: auto;
+  margin-inline: auto;
+  padding: 20px;
+  }
+
+.flex {
+  display: flex;
+}
